@@ -19,7 +19,7 @@ export default function Home() {
           <div className="flex items-center mb-4 md:mb-0">
             <div className="text-5xl font-bold mr-4">jle</div>
             <div>
-              <h1 className="text-2xl md:text-3xl font-serif">Journal of Language and Education</h1>
+              <h1 className="text-2xl md:text-3xl font-serif">JCPM</h1>
               <p className="text-sm md:text-base">ISSN 2411-7390</p>
             </div>
           </div>
@@ -373,4 +373,3 @@ export default function Home() {
     </div>
   )
 }
-
