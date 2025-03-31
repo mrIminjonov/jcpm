@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-rgb));
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-merriweather);
+}
+
+/* Ensure consistent spacing on mobile */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Preserve layout structure on small screens */
+@media (max-width: 640px) {
+  nav ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  nav li {
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Ensure PDF buttons maintain their appearance */
+.pdf-button {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.75rem;
+}
+
+/* Ensure consistent spacing between article entries */
+.article-entry {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.article-entry:last-child {
+  border-bottom: none;
+}
+
