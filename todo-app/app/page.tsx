@@ -17,7 +17,7 @@ export default function Home() {
 
         <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row items-center">
           <div className="flex items-center mb-4 md:mb-0">
-            <div className="text-5xl font-bold mr-4">jle</div>
+            <div className="text-5xl font-bold mr-4">jcpm</div>
             <div>
               <h1 className="text-2xl md:text-3xl font-serif">JCPM</h1>
               <p className="text-sm md:text-base">ISSN 2411-7390</p>
@@ -98,7 +98,7 @@ export default function Home() {
                     <div className="bg-[#1a5b8e] text-white p-4 w-full max-w-[250px] aspect-[3/4]">
                       <div className="text-2xl mb-4">jcpm</div>
                       <div className="text-center mt-8">
-                        <div className="font-bold">J</div>
+                        <div className="font-bold">JCPM</div>
                         <div className="mt-16 text-xs">Volume 10 Issue 4, 2024</div>
                       </div>
                     </div>
